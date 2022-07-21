@@ -16,11 +16,11 @@
       </Label>
       <FlowPane focusTraversable="true" hgap="20.0" layoutX="144.0" layoutY="123.0" prefHeight="77.0" prefWidth="294.0">
          <children>
-            <Button fx:id="btnREgister" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#btnRegisterOnAction" prefHeight="70.0" prefWidth="133.0" style="-fx-background-color: white; -fx-border-color: lightgray; -fx-background-radius: 10px; -fx-border-radius: 10px;" styleClass="btn" text="Register">
+            <Button fx:id="btnREgister" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#btnRegisterOnAction" prefHeight="70.0" prefWidth="133.0" style="-fx-background-color: white; -fx-border-color: lightgray; -fx-background-radius: 10px; -fx-border-radius: 10px;" styleClass="btn" stylesheets="@../css/welcome-form-css.css" text="Register">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="67.0" prefWidth="128.0" style="-fx-background-color: white; -fx-border-color: lightgrey; -fx-background-radius: 10px; -fx-border-radius: 10pxx;" styleClass="btn" text="Login">
+            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="67.0" prefWidth="128.0" style="-fx-background-color: white; -fx-border-color: lightgrey; -fx-background-radius: 10px; -fx-border-radius: 10px;" styleClass="btn" stylesheets="@../css/welcome-form-css.css" text="Login">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
