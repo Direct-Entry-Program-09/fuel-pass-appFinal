@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="385.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenController">
+   <children>
+      <ImageView fitHeight="70.0" fitWidth="245.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/new-logo.c0df6a3a377bc58f49cc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="116.0" layoutX="484.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Logos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="147.0" layoutX="89.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/png-transparent-car-fuel-pump-fuel-dispenser-gas-station-s-text-rectangle-diesel-fuel.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="110.0" text="National Fuel Pass App">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="142.0" text="v 0.1.0" />
+      <Label fx:id="lblLoading" layoutX="193.0" layoutY="191.0" text="Welcome to National Fuel Pass App" />
+      <Separator layoutX="471.0" layoutY="309.0" orientation="VERTICAL" prefHeight="36.0" prefWidth="4.0" />
+      <ImageView fitHeight="50.0" fitWidth="90.0" layoutX="372.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/finalIocimage.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="pgbContainer" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="11.0" layoutX="1.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="605.0" />
+      <Rectangle fx:id="pgbLoader" arcHeight="5.0" arcWidth="5.0" fill="#1fff60" height="11.0" layoutX="-3.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+   </children>
+</AnchorPane>
