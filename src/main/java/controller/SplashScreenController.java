@@ -23,28 +23,28 @@ public class SplashScreenController {
     public void initialize(){
         Timeline t1=new Timeline();
 
-        KeyFrame keyFrame1 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame1 = new KeyFrame(Duration.millis(770), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblLoading.setText("Connecting with the database...!");
                 pgbLoader.setWidth(pgbLoader.getWidth() + 25);
             }
         });
-        KeyFrame keyFrame2 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame2 = new KeyFrame(Duration.millis(1000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblLoading.setText("Loading data...!");
                 pgbLoader.setWidth(pgbLoader.getWidth() + 30);
             }
         });
-        KeyFrame keyFrame3 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame3 = new KeyFrame(Duration.millis(1500), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblLoading.setText("Setting up the UI ");
                 pgbLoader.setWidth(pgbLoader.getWidth() + 25);
             }
         });
-        KeyFrame keyFrame4 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame4 = new KeyFrame(Duration.millis(2000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
 

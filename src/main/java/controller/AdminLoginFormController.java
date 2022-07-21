@@ -32,21 +32,22 @@ public class AdminLoginFormController {
                 Platform.exit();
                 return;
             }
-            URL resource = this.getClass().getResource("/audio/sci-fi-voiceclip-753-sound-effect-12634278.mp3");
-            //Media media = new Media(resource.toString());
+           URL resource = this.getClass().getResource("/audio/sci-fi-voiceclip-753-sound-effect-12634278.mp3");
+////            //Media media = new Media(resource.toString());
             Media media = new Media(resource.toString());
-
-            //MediaPlayer mediaPlayer = new MediaPlayer(media);
+////
+////            //MediaPlayer mediaPlayer = new MediaPlayer(media);
             MediaPlayer mediaPlayer = new MediaPlayer(media);
-
+////
             mediaPlayer.play();
 
 
             Alert alert = new Alert(Alert.AlertType.ERROR, "Invalid Admin Password. You have " + attempts + " more attempts to try again.");
             attempts--;
 
-            InputStream resourceAsStream = this.getClass().getResourceAsStream("/image/lock.png");
+            InputStream resourceAsStream = this.getClass().getResourceAsStream("/images/lock.png");
             Image image = new Image(resourceAsStream);
+            //Image image = new Image(resourceAsStream);
             ImageView imageView = new ImageView(image);
             imageView.setFitWidth(48);
             imageView.setFitHeight(48);
